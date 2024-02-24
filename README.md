@@ -1,14 +1,20 @@
-# MLH Prep Project
+# The Weather Center
 
-Over the next 2 weeks, you'll be building a React App that works with various APIs (Application Programming Interfaces) that talk to different data sources to do cool stuff.
+A web application that displays real-time weather data, including temperature, humidity, and wind speed, for any city. Project for MLH Prep November 2022.
 
-We're using the [OpenWeather API](https://openweathermap.org/current) to get weather data on different cities. Your challenge over the next 2 weeks is to build out this website and add even more functionality to it. At the moment, it displays basic information about a location when you type it in. Check out [Issues](/issues) for some more ideas!
+## Features
 
-You'll need to get your own API Key from their website (for free) and add it as an environment variable in a `.env` file. We have a template available as `example.env`.
+- **City Search**: Easily search for any city by name to retrieve its current weather conditions.
 
-You'll be using React initially to build this. If you're new to React, check out the [website](https://reactjs.org) for some information on getting started!
+- **Detailed Weather Information**: Get comprehensive weather details including temperature, humidity, and windspeed. Includes a 5-day weather forecast and a chart detailing the temperature changes throughout the day.
 
-# Setup Instructions
+- **Recommendations**: Get recommendations for items to bring, acitvities to do, food to eat, and songs to listen to based on the weather.
+
+- **Favorite Cities**: Save your favorite cities for quick access to their weather information without the need for repetitive searches.
+
+- **Assistant Bot**: Vocalize your searches using the assistant at the bottom right corner.
+
+## Setup
 
 To setup and run the project locally:
 
@@ -18,3 +24,16 @@ To setup and run the project locally:
 4. Rename `example.env` file to `.env` and put your API keys here.
 5. Run the app with `yarn start`.
 6. The default will be opened on [localhost:3000](http://localhost:3000)
+
+## Tech Stack
+
+**Frontend**: ReactJS
+
+**Backend**: Node.js
+
+**API**: OpenWeatherMap
+
+**Database**: Local Storage
+
+## Design
+The user interface was designed using [Figma](https://www.figma.com/file/c6VDC6StFF0rl2CpwbTHTX/Weather-App-Prep-Project?type=design&node-id=101%3A1560&mode=design&t=zdFj9ubL3kFIPgIZ-1).
